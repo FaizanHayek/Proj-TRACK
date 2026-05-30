@@ -161,8 +161,8 @@ export default function LoginScreen({ onLogin }: LoginScreenProps) {
 
         {/* Hero Title */}
         <div className="text-center mb-8">
-          <h1 className="text-5xl font-extrabold tracking-tighter text-[#00a884] mb-2 font-mono">
-            REVCHAT
+          <h1 className="text-4xl font-extrabold tracking-tighter text-[#00a884] mb-2 font-mono">
+            Proj-TRACK
           </h1>
           <p className="text-[10px] text-[#8696a0] font-bold uppercase tracking-widest mb-3">
             Your Private Revenue Command Center
