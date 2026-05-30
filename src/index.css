@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+/* WhatsApp Colors & Custom Bubble Theme Styling */
+.wa-chat-bg-dark {
+  background-color: #0b141a;
+}
+
+.wa-chat-bg-light {
+  background-color: #f0f2f5;
+}
+
+.wa-bubble-sent-dark {
+  background-color: #005c4b;
+  color: #e9edef;
+  border: 1px solid rgba(0, 168, 132, 0.1);
+}
+
+.wa-bubble-sent-light {
+  background-color: #d9fdd3;
+  color: #111b21;
+  border: 1px solid rgba(0, 128, 105, 0.08);
+}
+
+.wa-bubble-received-dark {
+  background-color: #202c33;
+  color: #e9edef;
+  border: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.wa-bubble-received-light {
+  background-color: #ffffff;
+  color: #111b21;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.wa-green-accent {
+  color: #00a884;
+}
+
+.wa-green-bg {
+  background-color: #008069;
+}
+
+.wa-green-bg-dark {
+  background-color: #00a884;
+}
+
+/* Specific Chat & Wallpaper Pattern */
+.wa-wallpaper-dark {
+  background-color: #0b141a;
+  background-image: radial-gradient(rgba(0, 168, 132, 0.05) 1px, transparent 0),
+                    radial-gradient(rgba(0, 168, 132, 0.05) 1px, transparent 0);
+  background-size: 24px 24px;
+  background-position: 0 0, 12px 12px;
+}
+
+.wa-wallpaper-light {
+  background-color: #efeae2; /* WhatsApp classical light backdrop */
+  background-image: radial-gradient(rgba(0, 128, 105, 0.04) 1px, transparent 0),
+                    radial-gradient(rgba(0, 128, 105, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+  background-position: 0 0, 12px 12px;
+}
+
+/* Glowing Float Action Button (FAB) */
+.fab-glow {
+  box-shadow: 0 10px 25px rgba(37, 211, 102, 0.35);
+  text-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.fab-glow-light {
+  box-shadow: 0 10px 25px rgba(0, 128, 105, 0.3);
+}
+
+/* Custom scrollbars matching WhatsApp client */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(134, 150, 160, 0.2);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(134, 150, 160, 0.4);
+}
+
+body {
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  background-color: #0b141a;
+  overflow-x: hidden;
+  transition: background-color 0.3s ease;
+}
+
+body.light {
+  background-color: #f0f2f5;
+}

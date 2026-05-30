@@ -1,0 +1,6 @@
+{
+  "name": "Proj-TRACK",
+  "description": "A Simple, Gen-Z styled Project and Revenue Tracking custom local dashboard with real-time automatic calculations, local persistence, dark/light toggle, and instant search.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
