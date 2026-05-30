@@ -155,7 +155,7 @@ export default function LoginScreen({ onLogin }: LoginScreenProps) {
         <div className="flex justify-center mb-6">
           <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10px] font-black tracking-widest uppercase bg-[#005c4b]/30 text-[#00a884] border border-[#00a884]/30">
             <Sparkles className="w-3.5 h-3.5 text-[#00a884] animate-spin" style={{ animationDuration: '4s' }} />
-            REV$PECT CHAT ONLINE
+            PROJ-TRACK ONLINE
           </span>
         </div>
 
